@@ -1,0 +1,48 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<AXES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../SCHEMAXML/AXES.xsd">
+  <AXE ID_AXE="11002007">
+    <NOM_AXE>Pont Morland</NOM_AXE>
+    <SECTEURS>
+      <SECTEURS_GEO>Paris - autres axes</SECTEURS_GEO>
+    </SECTEURS>
+  </AXE>
+  <AXE ID_AXE="11002398">
+    <NOM_AXE>Pont National/Bd Poniatowski</NOM_AXE>
+    <SECTEURS>
+      <SECTEURS_GEO>Paris - Grands axes</SECTEURS_GEO>
+    </SECTEURS>
+  </AXE>
+  <AXE ID_AXE="11002399">
+    <NOM_AXE>Boulevard du General-Martial-Valin</NOM_AXE>
+    <SECTEURS>
+      <SECTEURS_GEO>Paris - Grands axes</SECTEURS_GEO>
+    </SECTEURS>
+  </AXE>
+  <AXE ID_AXE="11002400">
+    <NOM_AXE>Bretelle vers PI</NOM_AXE>
+    <SECTEURS>
+      <SECTEURS_GEO>Paris - autres axes</SECTEURS_GEO>
+    </SECTEURS>
+  </AXE>
+  <AXE ID_AXE="11002401">
+    <NOM_AXE>Pont Bir Hakeim/Av President-Kennedy</NOM_AXE>
+    <SECTEURS>
+      <SECTEURS_GEO>Paris - Grands axes</SECTEURS_GEO>
+    </SECTEURS>
+  </AXE>
+  <AXE ID_AXE="11002402">
+    <NOM_AXE>Place de la Porte-de-Champerret/(AvPCha)</NOM_AXE>
+    <SECTEURS>
+      <SECTEURS_GEO>Paris - Grands axes</SECTEURS_GEO>
+    </SECTEURS>
+  </AXE>
+  <AXE ID_AXE="11002403">
+    <NOM_AXE>Souterrain Champs-Elysees a Tuileries</NOM_AXE>
+    <SECTEURS>
+      <SECTEURS_GEO>Grands Paris - Grands axes</SECTEURS_GEO>
+    </SECTEURS>
+  </AXE>
+  <AXE ID_AXE="11002404">
+  </AXE>
+</AXES>
+
