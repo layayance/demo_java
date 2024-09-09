@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.models;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
@@ -12,6 +12,9 @@ public class Axe {
 
     @JacksonXmlProperty(localName = "SECTEURS")
     private Secteurs secteurs;
+
+    @JacksonXmlProperty(localName = "TYPE_ALERTC")
+    private TypeAlertc typeAlertc;
 
     public Axe() {
     }
@@ -32,22 +35,36 @@ public class Axe {
     }
 
     public void setIdAxe(String idAxe) {
+
         this.idAxe = idAxe;
     }
 
     public String getNomAxe() {
+
         return nomAxe;
     }
 
     public void setNomAxe(String nomAxe) {
+
         this.nomAxe = nomAxe;
     }
 
     public Secteurs getSecteurs() {
+
         return secteurs;
     }
 
     public void setSecteurs(Secteurs secteurs) {
+
         this.secteurs = secteurs;
+    }
+
+    public TypeAlertc getTypeAlertc(){
+
+        return typeAlertc;
+    }
+
+    public void setTypeAlertc(TypeAlertc typeAlertc){
+        this.typeAlertc = typeAlertc;
     }
 }

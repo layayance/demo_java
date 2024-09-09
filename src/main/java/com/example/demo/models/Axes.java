@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.models;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;

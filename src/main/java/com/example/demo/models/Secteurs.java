@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.models;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
@@ -12,18 +12,22 @@ public class Secteurs {
 
     // Getters et Setters
     public String getSecteursGeo() {
+
         return secteursGeo;
     }
 
     public void setSecteursGeo(String secteursGeo) {
+
         this.secteursGeo = secteursGeo;
     }
 
     public String getTunnel() {
+
         return tunnel;
     }
 
     public void setTunnel(String tunnel) {
+
         this.tunnel = tunnel;
     }
 }

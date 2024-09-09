@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import com.example.demo.models.Axe;
+import com.example.demo.models.Axes;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,6 +38,14 @@ class DemoApplication implements CommandLineRunner {
 			for (Axe axe : axeList) {
 				System.out.println("ID_AXE: " + axe.getIdAxe());
 				System.out.println("NOM_AXE: " + axe.getNomAxe());
+
+				if (axe.getTypeAlertc() != null) {
+					System.out.println("CODE_TYPE_AXE: " + axe.getTypeAlertc().getCodeTypeAxe());
+					System.out.println("LIB_TYPE_AXE: " + axe.getTypeAlertc().getLibTypeAxe());
+				} else {
+					System.out.println();
+				}
+
 				if (axe.getSecteurs() != null) {
 					System.out.println("SECTEURS_GEO: " + axe.getSecteurs().getSecteursGeo());
 					System.out.println("TUNNEL: " + axe.getSecteurs().getTunnel());
