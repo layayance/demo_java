@@ -10,24 +10,19 @@ public class Axe {
     @JacksonXmlProperty(localName = "NOM_AXE")
     private String nomAxe;
 
+    @JacksonXmlProperty(localName = "NOM_USAGE")
+    private String nomUsage;
+
     @JacksonXmlProperty(localName = "SECTEURS")
     private Secteurs secteurs;
 
     @JacksonXmlProperty(localName = "TYPE_ALERTC")
     private TypeAlertc typeAlertc;
+//    @JacksonXmlProperty(localName = "LIB_TYPE_AXE")
+//    private LibTypeAxe libTypeAxe;
 
     public Axe() {
     }
-
-//    public Axe(String port) {
-//        this.nomAxe = port;
-//    }
-//
-//    public Axe(String idAxe, String nomAxe, Secteurs secteurs) {
-//        this.idAxe = idAxe;
-//        this.nomAxe = nomAxe;
-//        this.secteurs = secteurs;
-//    }
 
     // Getters et Setters
     public String getIdAxe() {
@@ -49,8 +44,16 @@ public class Axe {
         this.nomAxe = nomAxe;
     }
 
-    public Secteurs getSecteurs() {
+    public String getNomUsage() {
+        return this.nomUsage;
+    }
 
+
+    public void setNomUsage(String nomUsage) {
+        this.nomUsage = nomUsage;
+    }
+
+    public Secteurs getSecteurs() {
         return secteurs;
     }
 
@@ -60,7 +63,6 @@ public class Axe {
     }
 
     public TypeAlertc getTypeAlertc(){
-
         return typeAlertc;
     }
 

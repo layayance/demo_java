@@ -25,4 +25,17 @@ public class TypeAlertc {
         this.libTypeAxe = libTypeAxe;
     }
 
+    public String toString(){
+//        return "TypeAlertc {" +
+//                "codeTypeAxe='" + codeTypeAxe + "'," +
+//                 "libTypeAxe='" + libTypeAxe + "'" +
+//                '}';
+
+//        return "TypeAlertc {" +
+//                "codeTypeAxe='" + codeTypeAxe + "'," +
+//                "libTypeAxe='" + libTypeAxe + "'" +
+//                '}';
+        return codeTypeAxe;
+    }
+
 }
