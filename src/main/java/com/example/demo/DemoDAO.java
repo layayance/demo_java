@@ -22,6 +22,8 @@ public class DemoDAO {
         try (Connection con = DriverManager.getConnection(url);
              PreparedStatement pstmt = con.prepareStatement(sql)) {
 
+            con.setAutoCommit(false);
+
             for(Axe axe : listeAxes) {
                 // Paramètres de la requête
                 pstmt.setString(1, axe.getIdAxe());  // 1er paramètre (id_axe)
@@ -34,13 +36,14 @@ public class DemoDAO {
                 if (axe.getSecteurs() != null) {
                     pstmt.setString(6, axe.getSecteurs().getSecteursGeo());
                 }
-
                 // Exécuter la requête d'insertion
-                pstmt.executeUpdate();
+                pstmt.addBatch();
 
                 // Afficher les résultats
-                System.out.println("Données insérées avec succès !!!");
+
             }
+            int[] updateCounts = pstmt.executeBatch();
+            con.commit();
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());

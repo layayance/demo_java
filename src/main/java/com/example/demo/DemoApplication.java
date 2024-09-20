@@ -39,28 +39,8 @@ class DemoApplication implements CommandLineRunner {
 
 			long startTime = System.currentTimeMillis(); // début du calcul du temps
 			List<Axe> axeList = axes.getAxes();
-			List<Axe> listeAxes = new ArrayList<>(axeList);
-		//	for (Axe axe : axeList) {
-//				System.out.println("ID_AXE: " + axe.getIdAxe());
-//				System.out.println("NOM_AXE: " + axe.getNomAxe());
-//				System.out.println("NOM_USAGE: " + axe.getNomUsage());
-//				dao.addAxe(axeList);
-				dao.addAxe(listeAxes);
-//				listeAxes.add(axe);
-//				if (axe.getTypeAlertc() != null) {
-//					System.out.println("CODE_TYPE_AXE: " + axe.getTypeAlertc().getCodeTypeAxe());
-////					System.out.println("LIB_TYPE_AXE: " + axe.getTypeAlertc().getLibTypeAxe());
-//
-//				} else {
-//					System.out.println();
-//				}
-//
-//				if (axe.getSecteurs() != null) {
-//					System.out.println("SECTEURS_GEO: " + axe.getSecteurs().getSecteursGeo());
-//					System.out.println("TUNNEL: " + axe.getSecteurs().getTunnel());
-//				}
-//				System.out.println();
-			//}
+			dao.addAxe(axeList);
+
 			long endTime = System.currentTimeMillis(); // fin du calcul du temps
 			long executionTime = endTime - startTime; // calcul du temps d'exécution
 			System.out.println("Temps de la requete : " + executionTime + " millisecondes");

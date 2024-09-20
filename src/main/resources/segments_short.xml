@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SEGMENTS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../SCHEMAXML/SEGMENTS.xsd">
+    <SEG_INTERNE>
+        <SEGMENT ID_SEGMENT="12017312">
+            <NOM_SEGMENT>SEG/D4-Y/14+0500/15+0000</NOM_SEGMENT>
+            <CHAINAGE>
+                <AMONT>
+                    <ID_SEG_AMONT>12017313</ID_SEG_AMONT>
+                </AMONT>
+                <AVAL>
+                    <ID_SEG_AVAL>12017311</ID_SEG_AVAL>
+                </AVAL>
+            </CHAINAGE>
+            <ID_POINT_ORIGINE>10019976</ID_POINT_ORIGINE>
+            <ID_POINT_DESTINATION>10019975</ID_POINT_DESTINATION>
+            <LONGUEUR>500</LONGUEUR>
+            <PR_DEBUT>
+                <NOPR>14</NOPR>
+                <ABSCISSE>500</ABSCISSE>
+            </PR_DEBUT>
+            <PR_FIN>
+                <NOPR>15</NOPR>
+                <ABSCISSE>0</ABSCISSE>
+            </PR_FIN>
+            <SECTION_COURANTE>
+                <ID_AXE>11001122</ID_AXE>
+                <SENS>Y</SENS>
+            </SECTION_COURANTE>
+            <ARCS>
+                <ID_ARC>13011969</ID_ARC>
+            </ARCS>
+            <PRESOMPTION_BOUCHON>
+                <NOM_LOI>Le point de mesure est en présomption de bouchon</NOM_LOI>
+                <NUMERO_LOI>1</NUMERO_LOI>
+            </PRESOMPTION_BOUCHON>
+            <DIFFUSION>1</DIFFUSION>
+            <EXPLOITATION>1</EXPLOITATION>
+            <NB_VOIES>2</NB_VOIES>
+            <VOIES>
+                <VOIE ID_VOIES="21015484">
+                    <NUM_VOIE>1</NUM_VOIE>
+                </VOIE>
+                <VOIE ID_VOIES="21015485">
+                    <NUM_VOIE>2</NUM_VOIE>
+                </VOIE>
+            </VOIES>
+            <SECTEUR_GEOGRAPHIQUE>Ile de France Est</SECTEUR_GEOGRAPHIQUE>
+            <EXPLOITE>
+                <ID_PARTENAIRE>3</ID_PARTENAIRE>
+            </EXPLOITE>
+        </SEGMENT>
+        <SEGMENT ID_SEGMENT="12017313">
+            <NOM_SEGMENT>SEG/D4-Y/14+0000/14+0500</NOM_SEGMENT>
+            <CHAINAGE>
+                <AMONT>
+                    <ID_SEG_AMONT>12017319</ID_SEG_AMONT>
+                    <ID_SEG_AMONT>12017320</ID_SEG_AMONT>
+                </AMONT>
+                <AVAL>
+                    <ID_SEG_AVAL>12017312</ID_SEG_AVAL>
+                </AVAL>
+            </CHAINAGE>
+            <ID_POINT_ORIGINE>10019977</ID_POINT_ORIGINE>
+            <ID_POINT_DESTINATION>10019976</ID_POINT_DESTINATION>
+            <LONGUEUR>500</LONGUEUR>
+            <PR_DEBUT>
+                <NOPR>14</NOPR>
+                <ABSCISSE>0</ABSCISSE>
+            </PR_DEBUT>
+            <PR_FIN>
+                <NOPR>14</NOPR>
+                <ABSCISSE>500</ABSCISSE>
+            </PR_FIN>
+            <SECTION_COURANTE>
+                <ID_AXE>11001122</ID_AXE>
+                <SENS>Y</SENS>
+            </SECTION_COURANTE>
+            <ARCS>
+                <ID_ARC>13011969</ID_ARC>
+            </ARCS>
+            <PRESOMPTION_BOUCHON>
+                <NOM_LOI>Le point de mesure est en présomption de bouchon</NOM_LOI>
+                <NUMERO_LOI>1</NUMERO_LOI>
+            </PRESOMPTION_BOUCHON>
+            <DIFFUSION>1</DIFFUSION>
+            <EXPLOITATION>1</EXPLOITATION>
+            <NB_VOIES>2</NB_VOIES>
+            <VOIES>
+                <VOIE ID_VOIES="21015486">
+                    <NUM_VOIE>1</NUM_VOIE>
+                </VOIE>
+                <VOIE ID_VOIES="21015487">
+                    <NUM_VOIE>2</NUM_VOIE>
+                </VOIE>
+            </VOIES>
+            <SECTEUR_GEOGRAPHIQUE>Ile de France Est</SECTEUR_GEOGRAPHIQUE>
+            <EXPLOITE>
+                <ID_PARTENAIRE>3</ID_PARTENAIRE>
+            </EXPLOITE>
+        </SEGMENT>
+    </SEG_INTERNE>
+</SEGMENTS>
